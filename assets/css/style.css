@@ -37,6 +37,10 @@ h1,h2,h3,h4 {
     color: #fafafa;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 
 /* -------------------Heading */
 header {
@@ -135,4 +139,24 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: 0;
+}
+
+.container-fluid {
+    background-color: #525252;
+    color: #fafafa;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
 }
